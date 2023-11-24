@@ -4,13 +4,21 @@ sample video playback gstreamer application which demonstrate the test video dat
 this application same as below specified gstreamer pipeline output.
 
 # gst-launch-1.0 videotestsrc ! autovideosink
+
 Setting pipeline to PAUSED ...
+
 error: XDG_RUNTIME_DIR not set in the environment.
+
 Pipeline is PREROLLING ...
+
 Got context from element 'autovideosink0': gst.gl.GLDisplay=context, gst.gl.GLDisplay=(GstGLDisplay)"\(GstGLDisplayX11\)\ gldisplayx11-0";
+
 Pipeline is PREROLLED ...
+
 Setting pipeline to PLAYING ...
+
 New clock: GstSystemClock
+
 
 
 
