@@ -51,14 +51,16 @@ apt-get install pkg-config sudo apt-get install libgstreamer1.0-dev
 Application compilation command:
 =============================================================================================================
 
-# gcc -Wall videotestfeedappln.c -o videoplaybackapplnexe $(pkg-config --cflags --libs gstreamer-1.0)
+
+gcc -Wall videotestfeedappln.c -o videoplaybackapplnexe $(pkg-config --cflags --libs gstreamer-1.0)
 
 
 
 Application execution run command:
 =============================================================================================================
 
-# ./videoplaybackapplnexe
+
+./videoplaybackapplnexe
 
 Running ...
 
